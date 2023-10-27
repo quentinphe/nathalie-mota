@@ -1,0 +1,53 @@
+//APPLIQUÉ À TOUS LES A ET LI
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+// SCSS DU HEADER 
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: white;
+    padding: 0 5rem;
+	
+    
+    .logo {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.menu-menu-principal-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    ul#menu-menu-principal {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+		li#menu-item-21, li#menu-item-30, li#menu-item-59 {
+			margin: 0 2em; // Appliqué à plusieurs éléments li
+		}
+
+			a {
+				color: black;
+                font-family: 'Space Mono', monospace;
+                font-size: 16px;
+                font-weight: 400;
+			}
+
+    li#menu-item-59 {
+        margin-right: 4em; // Réglage spécifique pour li#menu-item-20
+    }
+}
